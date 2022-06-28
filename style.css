@@ -1,0 +1,248 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+} 
+img{
+	width:100%;
+	height: auto;
+	
+}
+.aminul{
+   
+    background: url(images/back-round.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+    
+      
+}
+.container{
+	width: 80%;
+	
+	margin: 0 auto;
+	
+	
+}
+
+.manu{}
+.manu ul{ 
+       list-style:none;
+	   display: flex;
+	   justify-content: center;
+	   }
+.manu ul li {
+	padding: 20px 0;
+}
+.manu ul li a{
+	
+	text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+ 	transition: .10s;
+}
+.manu ul li a:hover{
+	background: #FFC815;
+	border-radius: 5px;
+	
+	
+}
+
+.logo{
+	
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 35px;
+	
+}
+.service-area{
+	padding: 80px 0;
+    overflow: hidden;	
+}
+.section-title{
+	padding: 25px 0;
+	text-align: center;
+}
+.section-title h2{
+	font-size: 35px;
+}
+.service-items{}
+.service-img{
+    
+    width: 32%;
+	float: left;
+    overflow: hidden;
+	margin-left: 2%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.service-img:first-child,
+.service-img:nth-child(4){
+	margin-left: 0;
+}
+.service-overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(52, 73, 94, .75);
+	position: absolute;
+	top: 100;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+}
+.service-overlay h5{
+	font-size: 20px;
+	color: #FFC815;
+	
+} 
+.service-img:hover .service-overlay{
+	top: 0;
+}
+
+.team-area{
+    padding: 80px 0; 
+    background: #ecf0f1; 
+    
+}
+.team-members{
+    display: flex;
+    justify-content: space-between;
+}
+.member{
+    width: 23.5%;
+    
+    
+    
+}
+.profile-photo{
+    position: relative;
+    overflow: hidden;
+}
+.team-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, .75);
+    position: absolute;
+    bottom: 100;
+    right: 100;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    
+}
+
+
+.profile-photo:hover .team-overlay{
+    
+    bottom: 0%;
+}
+.profile-info h5{
+    
+   color: #34495e; 
+    font-size: 16px;
+}
+
+.profile-info span{
+    
+    font-style: italic;
+    font-size: 14px;
+}
+/*Contact page*/
+
+
+.contact-area{
+    padding: 80px 0;
+    background: #fff;
+}
+.contact-form{
+    width: 40%;
+    margin: 0 auto;
+    
+    
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group input,
+.form-group textarea{
+    
+    width: 100%;
+    padding: 5px 3px;
+    border-radius: 3px;
+    border: 1px solid #bdc3c7;
+    
+}
+
+.contact-form input[type=submit]{
+    
+    background: #DD5347;
+    border: none;
+    color: #fff;
+    padding: 7px 15px;
+    transition: .5s;
+    
+    
+}
+
+.contact-form input[type=submit]:hover{
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/*Footer area*/
+
+.footer-area{
+    padding: 20px 0;
+    text-align: center;
+    background: #fff;
+    
+    
+    
+}
+
+
+.footer-area p{
+    color: #7f8c8d;
+}
+.footer-area a{
+    
+    color: #2B7CD3;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

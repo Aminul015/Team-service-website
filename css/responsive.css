@@ -1,0 +1,30 @@
+@media (max-width: 768px){
+	.logo{
+		
+		margin-top:75px;
+	}
+    .contact-form{
+        width: 50%;
+    }
+	
+}
+@media (max-width: 768px){
+    
+    .service-img{
+        
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .team-members{
+        display: block;
+    }
+    
+    .member{
+        
+        width: 100%;
+    }
+    .contact-form{
+        width: 75%;
+    }
+}
